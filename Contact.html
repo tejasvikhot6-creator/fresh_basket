@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FreshBasket - Contact Us</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background: #f7faf5;
+      font-family: Arial, sans-serif;
+    }
+    .contact-banner {
+      background: linear-gradient(90deg, #164d2b, #55a64b);
+      color: white;
+      padding: 65px 20px;
+      text-align: center;
+    }
+    .contact-card {
+      background: white;
+      border-radius: 15px;
+      padding: 30px;
+      box-shadow: 0 5px 20px rgba(0,0,0,.07);
+      height: 100%;
+    }
+    .contact-icon {
+      font-size: 30px;
+      color: #398b38;
+    }
+    .form-control {
+      padding: 12px;
+      margin-bottom: 15px;
+    }
+    .btn-fresh {
+      background: #398b38;
+      color: white;
+      padding: 12px 30px;
+      border: none;
+    }
+    .btn-fresh:hover {
+      background: #236c2c;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Banner -->
+<section class="contact-banner">
+  <h1>Get In Touch With Us</h1>
+  <p>We would love to hear from you!</p>
+  <p>Fresh Vegetables, Fresh Relationships 💚</p>
+</section>
+
+<div class="container py-5">
+  <div class="row g-4">
+
+    <!-- Contact Information -->
+    <div class="col-lg-5">
+      <div class="contact-card">
+        <h3 class="mb-4">Contact Information</h3>
+
+        <p class="contact-icon">📍</p>
+        <h5>Our Address</h5>
+        <p>FreshBasket, Navi Mumbai, Maharashtra</p>
+
+        <p class="contact-icon">📞</p>
+        <h5>Phone Number</h5>
+        <p>+91 98765 43210</p>
+
+        <p class="contact-icon">✉️</p>
+        <h5>Email Address</h5>
+        <p>support@freshbasket.com</p>
+
+        <p class="contact-icon">🕒</p>
+        <h5>Working Hours</h5>
+        <p>Monday – Sunday<br>8:00 AM – 9:00 PM</p>
+      </div>
+    </div>
+
+    <!-- Contact Form -->
+    <div class="col-lg-7">
+      <div class="contact-card">
+        <h3 class="mb-2">Send Us A Message</h3>
+        <p class="text-muted">Have a question? Let us know.</p>
+
+        <form>
+          <label class="form-label">Your Name</label>
+          <input type="text" class="form-control"
+                 placeholder="Enter your name" required>
+
+          <label class="form-label">Email Address</label>
+          <input type="email" class="form-control"
+                 placeholder="Enter your email" required>
+
+          <label class="form-label">Phone Number</label>
+          <input type="tel" class="form-control"
+                 placeholder="Enter your phone number">
+
+          <label class="form-label">Subject</label>
+          <input type="text" class="form-control"
+                 placeholder="Enter subject">
+
+          <label class="form-label">Your Message</label>
+          <textarea class="form-control" rows="5"
+                    placeholder="Write your message here..."
+                    required></textarea>
+
+          <button type="submit" class="btn btn-fresh">
+            Send Message →
+          </button>
+        </form>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="text-center text-white py-4"
+        style="background:#164d2b">
+  <h4>🥬 FreshBasket</h4>
+  <p>Eat Fresh, Stay Healthy!</p>
+  <p class="mb-0">© 2026 FreshBasket. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
